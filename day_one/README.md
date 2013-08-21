@@ -33,6 +33,8 @@ Runtime of an algorithm can be measured as a function and as dataset grows it wi
 Put in more simple terms, the runtime of a program is affected by things such as loops, nested loops, consecutive statements, if/else statements, common array methods (accessing, inserting, removing). All of these will cause the f(n) curve to have a different shape as n grows large.
 
 Common complexities and graphs of how they grow:
+This example is a bit outdated as most of you have probably never used a phone book. Imagine a huuuuuge book full of names and phone numbers. If you have searched through one often, you will intuitively use the most efficient search method, which is to open the book up towards the center and this immediately splits your search field in half. Then recursively search through smaller and smaller sets of data until you find what you're looking for. This describes the Binary Search algorithm.
+
 O(1): Constant. Example: Look on page 5 in the phone book to find what you’re looking for (Hash table)
 
 O(logn): Log. Example Do a binary search on the phone book to find what you’re looking for
