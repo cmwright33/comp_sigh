@@ -30,8 +30,10 @@ http://www.codemastershawn.com/library/tutorial/hex.bin.numbers.php
 Analysis of Algorithms:
 Runtime of an algorithm can be measured as a function and as dataset grows it will tend towards a worst-case scenario. f(n) represents the function and t(n) the time in: t(n) = O f(n)
 
+Put in more simple terms, the runtime of a program is affected by things such as loops, nested loops, consecutive statements, if/else statements, common array methods (accessing, inserting, removing). All of these will cause the f(n) curve to have a different shape as n grows large.
+
 Common complexities and graphs of how they grow:
-O(1): Constant. Example: Look on page 5 in the phone book to find what you’re looking for
+O(1): Constant. Example: Look on page 5 in the phone book to find what you’re looking for (Hash table)
 
 O(logn): Log. Example Do a binary search on the phone book to find what you’re looking for
 
@@ -44,14 +46,6 @@ O(n^2): Quadratic. Example: For every name in the phone book, look through the e
 O(2^n): Exponential. Example (not relating to phone books): Test all possible combinations of a password 
 
 See this page: http://en.wikipedia.org/wiki/Best,_worst_and_average_case for a table breaking down the best, average and worst case for the most common data structures and sorting algorithms.
-
-The runtime of a program is affected by:
-loops
-nested loops
-consecutive statements
-if/else statements
-common array methods (accessing, inserting, removing)
-
 
 Use Benchmarking in Ruby to verify performance
 http://ruby-prof.rubyforge.org/
