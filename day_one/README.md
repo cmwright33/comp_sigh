@@ -32,20 +32,26 @@ Runtime of an algorithm can be measured as a function and as dataset grows it wi
 
 Common complexities and graphs of how they grow:
 O(1): Constant. Example: Look on page 5 in the phone book to find what you’re looking for
-O(logn): Log. Example Do a binary search on the phone book to find what you’re looking formal
+
+O(logn): Log. Example Do a binary search on the phone book to find what you’re looking for
+
 O(n): Linear. Example: Look through each page, starting with page 1, in the phone book to find what you’re looking for
+
 O(nlogn). Example: All the names in a phone book are out of order, sort them
+
 O(n^2): Quadratic. Example: For every name in the phone book, look through the entire phone book starting at page 1 to see how many people have the same name
+
 O(2^n): Exponential. Example (not relating to phone books): Test all possible combinations of a password 
 
-See this page: http://en.wikipedia.org/wiki/Best,_worst_and_average_case for a table breaking down the O's for common data structures and sorting algorithms.
+See this page: http://en.wikipedia.org/wiki/Best,_worst_and_average_case for a table breaking down the best, average and worst case for the most common data structures and sorting algorithms.
 
-Big-O runtime of a program is affected by:
+The runtime of a program is affected by:
 loops
 nested loops
 consecutive statements
 if/else statements
 common array methods (accessing, inserting, removing)
+
 
 Use Benchmarking in Ruby to verify performance
 http://ruby-prof.rubyforge.org/
