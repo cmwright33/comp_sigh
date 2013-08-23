@@ -8,34 +8,9 @@
 		<style type="text/css">
 
 			rect:hover {
-				fill: orange;
+				fill: yellow;
 			}
 			
-			#tooltip {
-				position: absolute;
-				width: 200px;
-				height: auto;
-				padding: 10px;
-				background-color: white;
-				-webkit-border-radius: 10px;
-				-moz-border-radius: 10px;
-				border-radius: 10px;
-				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-				pointer-events: none;
-			}
-			
-			#tooltip.hidden {
-				display: none;
-			}
-			
-			#tooltip p {
-				margin: 0;
-				font-family: sans-serif;
-				font-size: 16px;
-				line-height: 20px;
-			}
 
 		</style>
 	</head>
@@ -92,7 +67,7 @@
 			   		return yScale(d);
 			   })
 			   .attr("fill", function(d) {
-					return "rgb(" + (d * 20) + ", 0, " + (d * 10) + ")";
+					return "rgb( 10, " + (d * 6) + ", " + (d * 2) + ")";
 			   })
 			    .on("mouseover", function(d) {
 
@@ -148,7 +123,7 @@
 							return yScale(d);
 						})
 						.attr("fill", function(d) {				//Sets the fill value
-							return "rgb(" + (d * 20) + ", 0, " + (d * 10) + ")";
+							return "rgb( 10, " + (d * 6) + ", " + (d * 2) + ")";
 						});
 
 					//Update…

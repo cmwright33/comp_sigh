@@ -1,13 +1,25 @@
+Outline: 
+- Introduce data structures as a concept and list basic ones
+- Which data structures are commonly used for what
+- Discuss Big O times for most common operations performed on data structures
 
-Major Data Structures: Tree, Linked List, Hash Table, Stack, Queue, Bag 
+Lab:
+- implement a linked list
+- implement Binary Search Tree 20 Questions game
 
 
-Talk about the concept of Binary Trees and diagram a few on the board. As a code-along, implement a Binary Tree class in Ruby. Then, talk about the idea of a Binary Search Tree -- same structure but with rules about where nodes can be placed. Make a Binary Search Tree class that inherits from the BinaryTree class, then have students pseudo-code the .insert method of the BST class. In groups of 2-3, they switch into lab mode and complete the insert class. Make sure that they are drawing the structures they expect.
+Lecture Notes:
+What is a data structure? It is way to organize data so it can be found easily.
 
-Next up is the .search method -- have the class come back together to talk about it, diagram it and pseudo-code it, then split into groups of 2-3 again to code it .
+Major Data Structures include (but not limited to): Tree, Linked List, Hash Table, Heap, Stack, Queue, Bag 
 
+The best data structure for the job is the most simple one! As a basic rule of thumb, it is recommended to 'use the minimal data structure that supports all the operations you need' (Tim Roughgarten, Stanford)
 
-===================================================================
+Heaps: Container for objects that have keys. Supports insert, extract and delete. All of these operations can be performed in O(log n) time. canonical uses for video game simulations, or anything involving a lot of repetitive operations; e.g. Select Sort
+
+Hash Table: These are also known as Associative Arrays or Dictionaries and are the one of the most important data structures out there, despite the fact that they support very few operations. What they do, insert, delete and look up, they do very quickly, in O(1) time! Canonical uses include phone books, searching for duplicates to accomplish "deduplication", and in routing using fast lookup to block blacklisted IP addresses. They can also be used in chess applications as they quickly explore various game-playing strategies stored in a game tree.
+
+Binary Search Tree: These are pretty data structures as they also involve recursion. The left subtree of a node contains only nodes with keys less than the node's key. The right subtree of a node contains only nodes with keys greater than the node's key. The left and right subtree must each also be a binary search tree. There must be no duplicate nodes.
 
 
 20 Questions with Binary Trees

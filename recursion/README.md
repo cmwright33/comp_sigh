@@ -1,3 +1,16 @@
+Outline:
+- Introduce concept of recursion
+- Various uses of recursion
+
+Lab/code-along:
+- Implement recursive exponent function in Ruby and in JavaScript
+- Implement Fibonacci set in Ruby and JavaScript
+
+Lab:
+- Implement Fibonacci visualization with d3, using JQuery to get different sized data sets from user (show example)
+
+Lecture Notes:
+
 Recursion:
 Recursive programs call themselves. You can easily get into trouble with this if you don't know it's happening. Have you had a program hang indefinitely, but you don't know why? The thing with recursive programs is that they will continue to execute indefinitely unless you give them a way to wind down. Usually you design it so it calls itself on increasingly smaller subset of the larger problem. In Computer Science this approach is referred to as "divide and conquer", and it's proven to be an efficient way to solve problems with large amounts of data.
 
