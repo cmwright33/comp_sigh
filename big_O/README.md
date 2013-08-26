@@ -2,8 +2,9 @@ Outline:
 Basic computer science concepts - data types & binary numbers
 Algorithms - why & how to pick the best ones
 
-Lab: 
-Use Ruby benchmarking tool to refactor some badly written code (maybe Euler solutions?)
+Labs: 
+1. Write a binary number converter
+2. Use Ruby benchmarking tool to refactor some badly written code (maybe Euler solutions?)
 http://www.ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html
 
 
@@ -35,6 +36,9 @@ Binary system is used by computers because they are based on electrical circuits
 Hexadecimal system is base 16, which maps nicely to binary mathematically speaking as it is based on powers of 2. For a complete explanation:
 
 http://www.codemastershawn.com/library/tutorial/hex.bin.numbers.php
+
+
+_____________________________________________________________________________________________________________
 
 Analysis of Algorithms:
 An algorithm is basically a set of instructions for solving a problem. The runtime of an algorithm can be measured as a function. The best algorithms will do the job most efficiently. So, as a data set grows it will tend towards a worst-case scenario. f(n) represents the function and t(n) the time in: t(n) = O f(n)
