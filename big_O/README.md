@@ -31,6 +31,13 @@ Languages that work like the first three examples have all been called "weakly t
 
 more at http://en.wikipedia.org/wiki/Strong_and_weak_typing
 
+Casting is when you have a variable of one type and you decide that you would like it to be of a different type. This is generally to be avoided, however sometimes it is necessary. An example would be a function in Ruby that accepts an argument you call "number". When this function is called a user could pass in any type of variable - a String, Integer, Float, etc. If your calculations in the function depend on that input being of type Integer, you can cast the type on it like this:
+
+def dec2bin(number)
+  number = Integer(number);
+  # do Integer type stuff with number here
+end
+
 Interpreted vs compiled languages and the implications: 
 Interpreted languages aka "scripts" do not need to be compiled, e.g. JavaScript, Perl and Ruby. Compiled languages need to be compiled to run, Java, C, C++, etc. 
 
