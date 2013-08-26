@@ -3,3 +3,5 @@ Let's give the people what they want!
 
 Create a Rails app that converts numbers, much in the way that the currency converter worked.
 It should have a form, and a suite of tests that verify, for example, that the binary equivalent of 13 is 1101.
+
+Extra credit: to give the people even more than they asked for, add a hexadecimal converter to your app.
