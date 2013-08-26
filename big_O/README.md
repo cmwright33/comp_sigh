@@ -10,6 +10,10 @@ http://www.ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html
 
 Lecture Notes:
 
+Part I
+
+Data Types & Binary Numbers:
+
 Data types: (from Wikipedia)
 In computer science and computer programming, a data type or simply type is a classification identifying one of various types of data, such as real-valued, integer or Boolean, that determines the possible values for that type; the operations that can be done on values of that type; the meaning of the data; and the way values of that type can be stored.
 
@@ -40,7 +44,10 @@ http://www.codemastershawn.com/library/tutorial/hex.bin.numbers.php
 
 _____________________________________________________________________________________________________________
 
+Part II
+
 Analysis of Algorithms:
+
 An algorithm is basically a set of instructions for solving a problem. The runtime of an algorithm can be measured as a function. The best algorithms will do the job most efficiently. So, as a data set grows it will tend towards a worst-case scenario. f(n) represents the function and t(n) the time in: t(n) = O f(n)
 
 Put in more simple terms, the runtime of a program is affected by things such as loops, nested loops, consecutive statements, if/else statements, common array methods (accessing, inserting, removing). All of these will cause the f(n) curve to have a different shape as n grows large.
